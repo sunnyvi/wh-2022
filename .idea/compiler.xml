@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="securitydemo" />
+        <module name="order_manage" />
+        <module name="custManager" />
+        <module name="serviceapp" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="custManager" target="1.8" />
+      <module name="order_manage" target="1.8" />
+      <module name="securitydemo" target="1.8" />
+      <module name="serviceapp" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="custManager" options="-parameters" />
+      <module name="order_manage" options="-parameters" />
+      <module name="securitydemo" options="-parameters" />
+      <module name="serviceapp" options="-parameters" />
+    </option>
+  </component>
+</project>

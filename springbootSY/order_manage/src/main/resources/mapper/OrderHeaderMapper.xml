@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.order_manage.mapper.OrderHeaderMapper">
+
+    <resultMap id="BaseResultMap" type="com.order_manage.entity.OrderHeader">
+            <id property="id" column="id" jdbcType="INTEGER"/>
+            <result property="custPoNumber" column="CUST_PO_NUMBER" jdbcType="VARCHAR"/>
+            <result property="orderedDate" column="ordered_date" jdbcType="DATE"/>
+            <result property="transactionalCurrCode" column="TRANSACTIONAL_CURR_CODE" jdbcType="VARCHAR"/>
+            <result property="sendToFacDate" column="send_to_fac_date" jdbcType="DATE"/>
+            <result property="facConfirmDate" column="fac_confirm_date" jdbcType="DATE"/>
+            <result property="orderDiscount" column="ORDER_DISCOUNT" jdbcType="INTEGER"/>
+            <result property="creationDate" column="creation_date" jdbcType="DATE"/>
+            <result property="lastUpdateDate" column="last_update_date" jdbcType="DATE"/>
+            <result property="attributeCategory" column="ATTRIBUTE_CATEGORY" jdbcType="VARCHAR"/>
+            <result property="attribute1" column="attribute1" jdbcType="VARCHAR"/>
+            <result property="attribute2" column="attribute2" jdbcType="VARCHAR"/>
+            <result property="attribute3" column="attribute3" jdbcType="VARCHAR"/>
+            <result property="attribute4" column="attribute4" jdbcType="VARCHAR"/>
+            <result property="attribute5" column="attribute5" jdbcType="VARCHAR"/>
+            <result property="attribute6" column="attribute6" jdbcType="VARCHAR"/>
+            <result property="attribute7" column="attribute7" jdbcType="VARCHAR"/>
+            <result property="attribute8" column="attribute8" jdbcType="VARCHAR"/>
+            <result property="attribute9" column="attribute9" jdbcType="VARCHAR"/>
+            <result property="attribute10" column="attribute10" jdbcType="VARCHAR"/>
+            <result property="attribute11" column="attribute11" jdbcType="VARCHAR"/>
+            <result property="attribute12" column="attribute12" jdbcType="VARCHAR"/>
+            <result property="attribute13" column="attribute13" jdbcType="VARCHAR"/>
+            <result property="attribute14" column="attribute14" jdbcType="VARCHAR"/>
+            <result property="attribute15" column="attribute15" jdbcType="VARCHAR"/>
+            <result property="defaultDiscountRate2" column="DEFAULT_DISCOUNT_RATE2" jdbcType="INTEGER"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id,CUST_PO_NUMBER,ordered_date,
+        TRANSACTIONAL_CURR_CODE,send_to_fac_date,fac_confirm_date,
+        ORDER_DISCOUNT,creation_date,last_update_date,
+        ATTRIBUTE_CATEGORY,attribute1,attribute2,
+        attribute3,attribute4,attribute5,
+        attribute6,attribute7,attribute8,
+        attribute9,attribute10,attribute11,
+        attribute12,attribute13,attribute14,
+        attribute15,DEFAULT_DISCOUNT_RATE2
+    </sql>
+    <select id="selectById" resultMap="BaseResultMap">
+        select
+        <include refid="Base_Column_List"/>
+        from order_header
+        where
+        id = #{id,jdbcType=NUMERIC}
+    </select>
+
+
+</mapper>
