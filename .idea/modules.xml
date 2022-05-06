@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/springbootSY/common/common.iml" filepath="$PROJECT_DIR$/springbootSY/common/common.iml" />
       <module fileurl="file://$PROJECT_DIR$/springbootSY/custManager/custManager.iml" filepath="$PROJECT_DIR$/springbootSY/custManager/custManager.iml" />
       <module fileurl="file://$PROJECT_DIR$/springbootSY/order_manage/order_manage.iml" filepath="$PROJECT_DIR$/springbootSY/order_manage/order_manage.iml" />
       <module fileurl="file://$PROJECT_DIR$/springbootSY/springSecurity/securitydemo.iml" filepath="$PROJECT_DIR$/springbootSY/springSecurity/securitydemo.iml" />

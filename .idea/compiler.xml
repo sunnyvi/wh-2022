@@ -9,10 +9,12 @@
         <module name="securitydemo" />
         <module name="order_manage" />
         <module name="custManager" />
+        <module name="common" />
         <module name="serviceapp" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="common" target="1.8" />
       <module name="custManager" target="1.8" />
       <module name="order_manage" target="1.8" />
       <module name="securitydemo" target="1.8" />
@@ -21,6 +23,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="common" options="-parameters" />
       <module name="custManager" options="-parameters" />
       <module name="order_manage" options="-parameters" />
       <module name="securitydemo" options="-parameters" />
