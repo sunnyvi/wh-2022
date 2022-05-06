@@ -1,0 +1,20 @@
+
+L
+java:S3740"/Provide the parametrized type for this generic.(É“¹Ò8±”™Æ†0
+{
+java:S22934"YReplace the type specification in this constructor call with the diamond operator ("<>").(Å•‘ƒýÿÿÿÿ8²”™Æ†0
+x
+java:S1488"[Immediately return this expression instead of assigning it to the temporary variable "res".(üÞÅæ8µ”™Æ†0
+}
+java:S1488"[Immediately return this expression instead of assigning it to the temporary variable "res".(Ó§ª†øÿÿÿÿ8¶”™Æ†0
+x
+java:S1488$"[Immediately return this expression instead of assigning it to the temporary variable "res".(ÄÊ¨Œ8¶”™Æ†0
+w
+java:S1488+"[Immediately return this expression instead of assigning it to the temporary variable "res".(ûÝ‚s8·”™Æ†0
+h
+java:S2259"FA "NullPointerException" could be thrown; "getBody()" can return null.(×´ªŒúÿÿÿÿ8—•™Æ†0
+\
+java:S1118	":Add a private constructor to hide the implicit public one.(—‰Ö½ùÿÿÿÿ8Ÿ•™Æ†0
+X	java:S125#"<This block of commented-out lines of code should be removed.(¢É¢Ú8¿•™Æ†0
+u
+java:S1128"SRemove this unused import 'org.springframework.beans.factory.annotation.Autowired'.(¡ž¸Îùÿÿÿÿ8ŒÐ™‡0

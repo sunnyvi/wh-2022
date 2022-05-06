@@ -1,0 +1,27 @@
+
+l	java:S116"RRename this field "data_ip" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢ÛýÍþÿÿÿÿ
+m	java:S116"XRename this field "data_resource" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÉÉÀî
+v
+java:S1149–"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(ìãÐ¦
+n
+java:S3776"SRefactor this method to reduce its Cognitive Complexity from 172 to the 15 allowed.(–Ù¹Âûÿÿÿÿ
+V	java:S125/"<This block of commented-out lines of code should be removed.(›»ÍÕøÿÿÿÿ
+f
+java:S3252]"PUse static access with "org.apache.poi.ss.usermodel.DateUtil" for "getJavaDate".(Ê«ƒ‡
+b
+java:S1858]"L"getStringCellValue" returns a string, there's no need to call "toString()".(Ê«ƒ‡
+`
+java:S3252›"DUse static access with "com.alibaba.fastjson.JSON" for "parseArray".(äýÙŽúÿÿÿÿ
+a
+java:S3252›"EUse static access with "com.alibaba.fastjson.JSON" for "parseObject".(äýÙŽúÿÿÿÿ
+N
+java:S1854¢"7Remove this useless assignment to local variable "res".(ÞÉÿð
+R	java:S125 "<This block of commented-out lines of code should be removed.(¸Šâ
+]
+java:S3252¡"FUse static access with "com.alibaba.fastjson.JSON" for "toJSONString".( öè»
+?
+java:S1481¢"(Remove this unused "res" local variable.(ÞÉÿð
+R
+java:S1128"7Remove this unused import 'com.serviceapp.entity.Cust'.(áìºˆÿÿÿÿÿ
+D
+java:S1128"/Remove this unused import 'java.sql.Timestamp'.(èò½+

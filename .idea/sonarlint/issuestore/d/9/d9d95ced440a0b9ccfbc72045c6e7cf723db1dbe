@@ -1,0 +1,26 @@
+
+E
+java:S3740"/Provide the parametrized type for this generic.(É“¹Ò
+t
+java:S22937"YReplace the type specification in this constructor call with the diamond operator ("<>").(Å•‘ƒýÿÿÿÿ
+t
+java:S2293@"YReplace the type specification in this constructor call with the diamond operator ("<>").(Å•‘ƒýÿÿÿÿ
+q
+java:S1488"[Immediately return this expression instead of assigning it to the temporary variable "res".(üÞÅæ
+q
+java:S1488"[Immediately return this expression instead of assigning it to the temporary variable "res".(üÞÅæ
+v
+java:S1488!"[Immediately return this expression instead of assigning it to the temporary variable "res".(Ó§ª†øÿÿÿÿ
+q
+java:S1488'"[Immediately return this expression instead of assigning it to the temporary variable "res".(ÄÊ¨Œ
+p
+java:S1488."[Immediately return this expression instead of assigning it to the temporary variable "res".(ûÝ‚s
+a
+java:S2259"FA "NullPointerException" could be thrown; "getBody()" can return null.(×´ªŒúÿÿÿÿ
+U
+java:S1118":Add a private constructor to hide the implicit public one.(—‰Ö½ùÿÿÿÿ
+Q	java:S125&"<This block of commented-out lines of code should be removed.(¢É¢Ú
+G
+java:S1135:"2Complete the task associated to this TODO comment.(“Ø“D
+b
+java:S1858@"G"json" is already a string, there's no need to call "toString()" on it.(Å•‘ƒýÿÿÿÿ

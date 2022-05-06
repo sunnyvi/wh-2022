@@ -190,37 +190,7 @@ public class OrderHeaderController {
 		return Result.OK("批量删除成功!");
 	}
 
-//	/**
-//	 * 导出
-//	 * @return
-//	 */
-//	@RequestMapping(value = "/exportOrderForm")
-//	public ModelAndView exportOrderForm(HttpServletRequest request, OrderForm orderForm) {
-//		// Step.1 组装查询条件
-//		QueryWrapper<OrderForm> queryWrapper = QueryGenerator.initQueryWrapper(orderForm, request.getParameterMap());
-//		LoginUser sysUser = (LoginUser) SecurityUtils.getSubject().getPrincipal();
-//
-//		// Step.2 获取导出数据
-//		List<OrderForm> pageList = orderFormService.list(queryWrapper);
-//		List<OrderForm> exportList = null;
-//
-//		// 过滤选中数据
-//		String selections = request.getParameter("selections");
-//		if (oConvertUtils.isNotEmpty(selections)) {
-//			List<String> selectionList = Arrays.asList(selections.split(","));
-//			exportList = pageList.stream().filter(item -> selectionList.contains(item.getId())).collect(Collectors.toList());
-//		} else {
-//			exportList = pageList;
-//		}
-//
-//		// Step.3 AutoPoi 导出Excel
-//		ModelAndView mv = new ModelAndView(new JeecgEntityExcelView());
-//		mv.addObject(NormalExcelConstants.FILE_NAME, "order_form"); //此处设置的filename无效 ,前端会重更新设置一下
-//		mv.addObject(NormalExcelConstants.CLASS, OrderForm.class);
-//		mv.addObject(NormalExcelConstants.PARAMS, new ExportParams("order_form报表", "导出人:" + sysUser.getRealname(), "order_form"));
-//		mv.addObject(NormalExcelConstants.DATA_LIST, exportList);
-//		return mv;
-//	}
+
 
 	/**
 	 * 导入

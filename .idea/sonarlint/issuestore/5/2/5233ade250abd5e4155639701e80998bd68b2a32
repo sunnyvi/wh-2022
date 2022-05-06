@@ -1,0 +1,41 @@
+
+l	java:S116"RRename this field "data_ip" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢ÛýÍþÿÿÿÿ
+m	java:S116"XRename this field "data_resource" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÉÉÀî
+z
+java:S1149"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(®ÿ©·ýÿÿÿÿ
+A
+java:S1168"+Return an empty collection instead of null.(¥¹ï
+l
+java:S2159"VRemove this call to "equals"; comparisons between unrelated types always return false.(®ÒÜÆ
+q
+java:S2159""VRemove this call to "equals"; comparisons between unrelated types always return false.(ˆ©Éüÿÿÿÿ
+Z
+java:S3252'"DUse static access with "com.alibaba.fastjson.JSON" for "parseArray".(é§Öá
+[
+java:S3252'"EUse static access with "com.alibaba.fastjson.JSON" for "parseObject".(é§Öá
+M
+java:S1854."7Remove this useless assignment to local variable "res".(ÞÉÿð
+[
+java:S3252-"EUse static access with "com.alibaba.fastjson.JSON" for "parseObject".(Šƒë‚
+\
+java:S3252-"FUse static access with "com.alibaba.fastjson.JSON" for "toJSONString".(Šƒë‚
+>
+java:S1481."(Remove this unused "res" local variable.(ÞÉÿð
+R
+java:S18546"7Remove this useless assignment to local variable "res".(ÆŸäõùÿÿÿÿ
+[
+java:S32525"EUse static access with "com.alibaba.fastjson.JSON" for "parseObject".(Šƒë‚
+\
+java:S32525"FUse static access with "com.alibaba.fastjson.JSON" for "toJSONString".(Šƒë‚
+C
+java:S14816"(Remove this unused "res" local variable.(ÆŸäõùÿÿÿÿ
+M
+java:S1854?"7Remove this useless assignment to local variable "res".(·†¿ª
+l
+java:S2159<"VRemove this call to "equals"; comparisons between unrelated types always return false.(›ú©÷
+V	java:S125>"<This block of commented-out lines of code should be removed.(íÂ³Ðþÿÿÿÿ
+>
+java:S1481?"(Remove this unused "res" local variable.(·†¿ª
+D
+java:S1128
+"/Remove this unused import 'java.sql.Timestamp'.(èò½+

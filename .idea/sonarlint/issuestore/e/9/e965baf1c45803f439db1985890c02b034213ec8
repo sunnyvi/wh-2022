@@ -1,0 +1,9 @@
+
+^javascript:S1481#"=Remove the declaration of the unused 'validatePass' variable.(ö§èãıÿÿÿÿ
+[javascript:S1854#":Remove this useless assignment to variable "validatePass".(ö§èãıÿÿÿÿ
+€javascript:S1172#"_Remove the unused function parameter "rule" or rename it to "_rule" to make intention explicit.(ö§èãıÿÿÿÿ
+Wjavascript:S6353/";Use concise character class syntax '\d' instead of '[0-9]'.(¨Ÿ â
+Wjavascript:S6353/";Use concise character class syntax '\d' instead of '[0-9]'.(¨Ÿ â
+\javascript:S63531";Use concise character class syntax '\d' instead of '[0-9]'.(‰Œ®ûÿÿÿÿ
+\javascript:S63531";Use concise character class syntax '\d' instead of '[0-9]'.(‰Œ®ûÿÿÿÿ
+IWeb:AvoidCommentedOutCodeCheck"Remove this commented out code.(Œë

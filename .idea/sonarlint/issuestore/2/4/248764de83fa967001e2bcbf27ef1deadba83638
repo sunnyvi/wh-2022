@@ -1,0 +1,35 @@
+
+{
+java:S2293C"YReplace the type specification in this constructor call with the diamond operator ("<>").(”ü¾ûşÿÿÿÿ8ÜŸÍ†0
+{
+java:S2293J"YReplace the type specification in this constructor call with the diamond operator ("<>").(”ü¾ûşÿÿÿÿ8ÜŸÍ†0
+{
+java:S2293T"YReplace the type specification in this constructor call with the diamond operator ("<>").(”ü¾ûşÿÿÿÿ8ÜŸÍ†0
+{
+java:S2293\"YReplace the type specification in this constructor call with the diamond operator ("<>").(”ü¾ûşÿÿÿÿ8ÜŸÍ†0
+{
+java:S2293j"YReplace the type specification in this constructor call with the diamond operator ("<>").(”ü¾ûşÿÿÿÿ8ÜŸÍ†0
+{
+java:S2293t"YReplace the type specification in this constructor call with the diamond operator ("<>").(”ü¾ûşÿÿÿÿ8ÜŸÍ†0
+{
+java:S2293|"YReplace the type specification in this constructor call with the diamond operator ("<>").(”ü¾ûşÿÿÿÿ8ŸÜŸÍ†0
+|
+java:S2293…"YReplace the type specification in this constructor call with the diamond operator ("<>").(”ü¾ûşÿÿÿÿ8ŸÜŸÍ†0
+|
+java:S2293’"YReplace the type specification in this constructor call with the diamond operator ("<>").(”ü¾ûşÿÿÿÿ8ŸÜŸÍ†0
+7
+java:S1700&"Rename field "result"(‡Ôãõüÿÿÿÿ8£ÜŸÍ†0
+g
+java:S1845["JRename method "OK" to prevent any misunderstanding/clash with method "ok".(Óé±¸8²ÜŸÍ†0
+l
+java:S1845i"JRename method "OK" to prevent any misunderstanding/clash with method "ok".(åÿ‘‚øÿÿÿÿ8²ÜŸÍ†0
+l
+java:S1845s"JRename method "OK" to prevent any misunderstanding/clash with method "ok".(€ÓÓ¦ÿÿÿÿÿ8²ÜŸÍ†0
+g
+java:S1845{"JRename method "OK" to prevent any misunderstanding/clash with method "ok".(åø¼©8²ÜŸÍ†0
+J
+java:S1948&"(Make "result" transient or serializable.(‡Ôãõüÿÿÿÿ8´ÜŸÍ†0
+j	java:S100["NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Óé±¸8¼ÜŸÍ†0
+o	java:S100i"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(åÿ‘‚øÿÿÿÿ8½ÜŸÍ†0
+o	java:S100s"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€ÓÓ¦ÿÿÿÿÿ8¾ÜŸÍ†0
+j	java:S100{"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(åø¼©8ÉÜŸÍ†0

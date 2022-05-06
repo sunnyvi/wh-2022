@@ -1,0 +1,20 @@
+
+J
+java:S3740\"/Provide the parametrized type for this generic.(öÏ¼üıÿÿÿÿ
+e
+java:S1192/"JDefine a constant instead of duplicating this literal "cust_code" 5 times.(÷é ûÿÿÿÿ
+`
+java:S11920"JDefine a constant instead of duplicating this literal "site_code" 3 times.(¨Ô£ı
+Y
+java:S1155W">Use isEmpty() to check whether the collection is empty or not.(şâ…€ùÿÿÿÿ
+G
+java:S1602a",Remove useless curly braces around statement(êç¦ùÿÿÿÿ
+\
+java:S1128
+"ARemove this unused import 'org.springframework.data.domain.Page'.(˜âüÿÿÿÿ
+`
+java:S1128"ERemove this unused import 'org.springframework.data.domain.PageImpl'.(è”—şÿÿÿÿ
+^
+java:S1128"HRemove this unused import 'org.springframework.data.domain.PageRequest'.(ºêâÚ
+L
+java:S1128"6Remove this unused import 'javax.annotation.Resource'.(î¾Ì—
